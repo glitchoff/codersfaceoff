@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import ExploreCard from './Smalls/ExploreCard'
 export const Hero = () => {
   return (
     <section className="relative flex flex-col md:flex-row items-center justify-between px-10 py-16 bg-white">
     {/* Left Side: Text & Buttons */}
     <div className="max-w-lg text-left">
-      <span className="text-pink-500 font-semibold text-lg uppercase tracking-wider bg-pink-100 px-3 py-1 rounded-full">
-        🌍 Explore the world!
-      </span>
+      <ExploreCard />
+      
 
       <h1 className="text-5xl font-bold text-gray-900 mt-4">
         Travel <span className="text-pink-500">top</span> <br />
