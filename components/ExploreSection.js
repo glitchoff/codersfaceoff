@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { ArrowBigLeft } from "lucide-react";
 
 const ExploreSection = ({ destinations }) => {  // FIX: Destructure destinations
   return (
@@ -11,8 +12,9 @@ const ExploreSection = ({ destinations }) => {  // FIX: Destructure destinations
       <h1 className="text-3xl font-bold text-gray-900">Explore top destinations</h1>
 
 <>
-<div className="flex justify-center mt-4"> </div>
-<div className="flex justify-center mt-4"></div>
+
+<div className="flex justify-center mt-4"> <ArrowBigLeft size={20} /></div>
+<div className="flex justify-center mt-4"> <ArrowBigLeft size={20} /></div>
 </>
       {/* Destination Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
